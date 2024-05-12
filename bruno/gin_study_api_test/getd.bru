@@ -1,0 +1,16 @@
+meta {
+  name: getd
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:8080/getd?field_a=hello&field_b=world
+  body: none
+  auth: none
+}
+
+query {
+  field_a: hello
+  field_b: world
+}
